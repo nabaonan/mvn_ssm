@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<!-- 这里的namespace对应的是dao的路径 -->
+<mapper namespace="com.chinaedu.ssm.dao.UserDAO">
+
+	
+	
+	<select id="findUsersByCondition" parameterType="Condition" resultType="User">
+		<!-- 这里的condition对应的是传入的时候@param()中的参数  -->
+		select `id` ,`name` ,`nice_name`,`age` from user where `id` = #{condition.id}
+	</select>
+
+	
+
+</mapper>

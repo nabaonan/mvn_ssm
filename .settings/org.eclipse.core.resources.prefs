@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/conf/jdbc.properties=UTF-8
+encoding//src/main/test/java=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/error/404.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/error/500.jsp=UTF-8
+encoding/<project>=UTF-8
